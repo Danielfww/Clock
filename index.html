@@ -2,19 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Electronic Clock</title>
 <script>
-function displayTime() {
-    let element = document.getElementById("clock"); // Find element with id="clock" 
-    let now = new Date(); // Get current time
-    element.innerHTML = now.toLocaleTimeString(); // Display time
-    setTimeout(displayTime, 1000); // Call the function every second
-}
-window.onload = displayTime; // Start displaying the time after the document is loaded
 </script>
 </head>
 <body>
-    <h1>Electronic Clock</h1>. 
+    <h1>Electronic Clock</h1>
     <div id="clock"></div>
 </body>
 </html>

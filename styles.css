@@ -1,7 +1,7 @@
 #clock {
   display:flex;
-  border:black solid 1px; 
-  width:160px;
+  border:black groove 1px; 
+  width:10rem;
   align-items:center;
   text-align:center;
   background:lightgreen;
